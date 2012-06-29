@@ -40,14 +40,6 @@ public class Stack {
 				Stack stack = new Stack(50);      
 				for(int i = 0; i < 50; i++)
 						stack.push(new String(Integer.toString(i)));
-				/*
-				stack.push(new String("1"));      
-				stack.push(new String("2"));      
-				stack.push(new String("3"));      
-				stack.push(new String("4"));      
-				stack.push(new String("5"));
-				*/
-				// stack.push(new String("6"));	
 				System.out.println("what's on top: " + stack.peek()); 
 				while(stack.top >= 0) {      
 						System.out.print(stack.pop() + " ");      
