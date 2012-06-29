@@ -1,7 +1,7 @@
 public class Stack {      
-		Object[] data;
-		int maxSize;  
-		int top;      
+		private Object[] data;
+		private int maxSize;  
+		private int top;      
 		public Stack(int maxSize) {      
 				this.maxSize = maxSize;      
 				data = new Object[maxSize];      
