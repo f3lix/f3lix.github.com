@@ -9,10 +9,10 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Hi Felix
-tagline: Stay Sharp
+title : Hi Felix { Stay Sharp }
+tagline: 
 author :
-  name : Felix Lee
+  name : Felix Li
   email : leegyao@gmail.com
   github : f3lix
   twitter : colorfulseason
@@ -101,7 +101,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-21686380-1'
     getclicky :
       site_id : 
     mixpanel :
