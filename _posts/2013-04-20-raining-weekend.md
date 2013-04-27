@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "下雨的周末"
-description: ""
+description: "A raining weekend in ECNU."
 category: photography
 tags: [dslr, pentax]
 ---

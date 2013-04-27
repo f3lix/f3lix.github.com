@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Use SMO in .NET 4.0"
-description: ""
+description: "How to use SMO in .NET 4.0 environment."
 category: tech
 tags: [.net, sqlserver]
 ---

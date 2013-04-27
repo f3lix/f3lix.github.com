@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "关于找工作"
-description: ""
+description: "Some thoughts about job hunting."
 category: life
 tags: [job]
 ---

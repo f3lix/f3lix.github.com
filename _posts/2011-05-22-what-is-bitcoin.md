@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bitcoin 是个啥"
-description: ""
+description: "An explanation to Bitcoin."
 category: 
 tags: []
 ---

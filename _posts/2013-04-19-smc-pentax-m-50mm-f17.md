@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SMC PENTAX M 50mm F1.7"
-description: ""
+description: "Sample photos shoot by Pentax M50/1.7."
 category: photography
 tags : [dslr, pentax]
 ---
