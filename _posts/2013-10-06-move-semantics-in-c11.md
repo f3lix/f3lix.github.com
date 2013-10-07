@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Move Semantics in C++ 11"
+title: "C++11中的Move Semantics"
 description: "Move semantics in C++ 11"
 category: tech
 tags: [C++]
@@ -8,7 +8,7 @@ tags: [C++]
 {% include JB/setup %}
 
 
-### 1.Copy semantics
+### 1. Copy semantics
 
 shallow copy和deep copy是C++中非常经典的问题。当用一个class A的变量初始化另一个同类型变量时，会调用class A的copy constructor。如果class A没有显示声明拷贝构造函数，那么编译器会隐式合成一个default copy constructor，并且展现出bitwise copy semantics，即shallow copy。
 
@@ -43,7 +43,7 @@ Giant destructor
 
 class Giant有一个指针成员list，如果list指向的内存很大，那么每次拷贝的时候都要重新分配内存，这样造成了性能上的负担。比如CreateGiant()返回的时候拷贝给临时变量，然后临时变量再拷贝给giantA，这两次拷贝其实意义不大。这时我们想能不能通过移动指针成员指向内存的ownership，来解决不必要拷贝的问题。
 
-### 2.Rvalue reference
+### 2. Rvalue reference
 
 在C++98/03中，引用即另一个对象的别名。但仅限于引用一个lvalue，不可以引用一个rvalue，也就是说只有lvalue reference。
 
